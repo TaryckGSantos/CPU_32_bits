@@ -1,6 +1,6 @@
 library IEEE;
 use IEEE.std_logic_1164.all;
-USE IEEE.NUMERIC_STD.ALL;
+use IEEE.NUMERIC_STD.all;
 
 entity RegisterFile is
 port ( i_ReadReg1  : in std_logic_vector (4 downto 0);
