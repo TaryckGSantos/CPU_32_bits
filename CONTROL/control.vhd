@@ -17,7 +17,7 @@ architecture arch_1 of control is
 begin
 		process(i_instrucao)
 		begin
-		
+			o_WriteReg <= '0';
 			if i_instrucao = "000000" then
 				o_RegDst <= '1';
 				o_OrigALU <= '0';
