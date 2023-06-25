@@ -3,7 +3,8 @@ use IEEE.std_logic_1164.all;
 use IEEE.NUMERIC_STD.all;
 
 entity RegisterFile is
-port ( i_ReadReg1  : in std_logic_vector (4 downto 0);
+port ( i_clk : in std_logic;
+	    i_ReadReg1  : in std_logic_vector (4 downto 0);
 		 i_ReadReg2  : in std_logic_vector (4 downto 0);
 		 i_WriteReg  : in std_logic_vector (4 downto 0);
 		 i_writeData : in std_logic_vector (31 downto 0);
@@ -53,12 +54,15 @@ architecture arch_1 of RegisterFile is
 	);
 	
 begin
-	process (i_RegWrite) 
+	process (i_clk, i_RegWrite) 
 	begin
-
-		if (i_RegWrite = '1') then
-			array_reg(to_integer(unsigned(i_WriteReg))) <= i_writeData;
 		
+		if(rising_edge(i_clk)) then
+			
+			if (i_RegWrite = '1') then
+				array_reg(to_integer(unsigned(i_WriteReg))) <= i_writeData;
+			
+			end if;
 		end if;
 	end process;
 
