@@ -1,0 +1,9 @@
+- ULA e ULA Control
+- MUX
+- Control
+- Data Memory 
+- Instruction Memory
+- PC e PC Add
+- Register File
+- Shift Left
+- Sign Extended (16 to 32 bits)
