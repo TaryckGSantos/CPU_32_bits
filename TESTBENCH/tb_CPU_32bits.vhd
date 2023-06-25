@@ -4,7 +4,7 @@ use IEEE.std_logic_1164.all;
 entity tb_CPU_32bits is
 end tb_CPU_32bits;
 
-architecture arch_1 of tb_CPU_32bits is
+architecture behavior of tb_CPU_32bits is
 component CPU_32bits is 
 port ( i_clk : in std_logic);
 end component
@@ -29,4 +29,4 @@ begin
    wait;
 	end process;
 	
-end arch_1;
+end behavior;
