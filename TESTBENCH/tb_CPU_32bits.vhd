@@ -7,7 +7,7 @@ end tb_CPU_32bits;
 architecture behavior of tb_CPU_32bits is
 component CPU_32bits is 
 port ( i_clk : in std_logic);
-end component
+end component;
 
 signal w_clk: std_logic;
 
