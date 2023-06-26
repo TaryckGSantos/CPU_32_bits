@@ -1,4 +1,4 @@
-- ULA e ULA Control
+- ULA Control
 - MUX
 - Control
 - Data Memory 
