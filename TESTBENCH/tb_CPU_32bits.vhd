@@ -18,13 +18,13 @@ begin
 	process
 	begin
 	
-	w_clk <= 0;
+	w_clk <= '0';
 	wait for 10ns;
 	
-	w_clk <= 1;
+	w_clk <= '1';
 	wait for 10ns;
 	
-	w_clk <= 0;
+	w_clk <= '0';
 	assert false report "Test done." severity note;
    wait;
 	end process;
