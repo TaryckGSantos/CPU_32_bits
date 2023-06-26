@@ -1,6 +1,5 @@
 library IEEE;
 use IEEE.std_logic_1164.all;
-use IEEE.std_logic_signed.all;
 
 entity tb_ULA is
 end tb_ULA;
