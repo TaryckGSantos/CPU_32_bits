@@ -1,4 +1,3 @@
-- Control
 - Data Memory 
 - Instruction Memory
 - Register File
