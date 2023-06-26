@@ -1,4 +1,3 @@
-- MUX
 - Control
 - Data Memory 
 - Instruction Memory
