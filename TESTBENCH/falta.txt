@@ -1,3 +1,2 @@
 - Instruction Memory
 - Register File
-- Sign Extended (16 to 32 bits)
