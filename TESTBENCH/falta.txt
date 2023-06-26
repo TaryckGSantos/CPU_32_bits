@@ -1,2 +1,1 @@
 - Instruction Memory
-- Register File
