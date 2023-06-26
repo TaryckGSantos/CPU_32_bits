@@ -2,5 +2,4 @@
 - Data Memory 
 - Instruction Memory
 - Register File
-- Shift Left
 - Sign Extended (16 to 32 bits)
