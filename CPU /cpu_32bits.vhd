@@ -3,8 +3,7 @@ use IEEE.std_logic_1164.all;
 use IEEE.std_logic_signed.all;
 
 entity CPU_32bits is
-port ( i_clk : in std_logic;
-		 i_pc_D : in std_logic_vector(31 downto 0);
+port ( i_clk : in std_logic);
 		 
 end CPU_32bits;
 
